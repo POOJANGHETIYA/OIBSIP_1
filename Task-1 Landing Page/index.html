@@ -1,0 +1,122 @@
+<!--Made by Poojan Ghetiya for Task-1 of Web Development and Design at Oasis Infobyte -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>TravelDude</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><b>
+                    <h2> TravelDude</h2>
+                </b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destination">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="explore">Explore the world with us!</div>
+    <div class="main" id="home">
+         
+        <img src="https://thumbs.dreamstime.com/b/time-to-travel-wooden-sign-beach-background-49509295.jpg">
+    </div>
+
+    <div class="aboutUs" id="about">
+        <h1>About Us</h1>
+        <br>
+        <p class="container"> Welcome to Travel Dude, your ultimate travel companion! Our team of passionate travelers
+            and industry
+            experts have come together to create a one-stop-shop for all your travel needs. We offer a wide range of
+            services, including vacation planning, travel bookings, and destination recommendations. Our goal is to make
+            your travel experience as seamless and enjoyable as possible. Whether you're a solo adventurer, a family, or
+            a group of friends, we've got you covered. Let us take the stress out of planning and help you create
+            lasting memories on your next trip. Happy travels!
+        </p>
+        <br><br>
+    </div>
+
+    <div class="destination" id="destination">
+        <h1>Destinations</h1>
+        <br>
+        <div class=" card-group">
+            <div class="card">
+                <img class="card-img-top img-thumbnail"
+                    src="https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&w=600">
+                <div class="card-body">
+                    <h5 class="card-title">London</h5>
+                    <p class="card-text">Experience the vibrant culture and history of London, from the iconic Big Ben and Tower of London to the trendy neighborhoods of Shoreditch and Camden. Take a stroll along the South Bank, see a show in the West End, or shop on Oxford Street. London offers something for everyone, whether you're interested in art, music, theatre, or fashion.</p>
+                    <a href="#" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-thumbnail"
+                    src="https://images.pexels.com/photos/1308940/pexels-photo-1308940.jpeg?auto=compress&cs=tinysrgb&w=600">
+                <div class="card-body">
+                    <h5 class="card-title">Paris</h5>
+                    <p class="card-text">Fall in love with the City of Light, from the iconic Eiffel Tower and Louvre Museum to the charming cafés and boutiques of Montmartre. Take a romantic stroll along the Seine, visit the famous Notre Dame Cathedral, or indulge in some of the world's best food and wine. Paris is a city of art, culture, and romance.</p>
+                    <a href="#" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-thumbnail"
+                    src="https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=600">
+                <div class="card-body">
+                    <h5 class="card-title">New York</h5>
+                    <p class="card-text">Discover the energy and diversity of New York City, from the towering skyscrapers of Manhattan to the colorful street art and delicious food of Brooklyn. Take a ferry to the Statue of Liberty, catch a Broadway show, or shop in Times Square. New York is a melting pot of cultures and is known for its iconic landmarks, world-class museums and excellent shopping.</p>
+                    <a href="#" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contactUs">
+        <h1>Contact US</h1>
+        <form class="contForm">
+            
+                <div class="name"> <label for="name">Name </label><br>
+                <input type="text" name="name"><br></div>
+                <div class="number"> <label for="number">Contact No. </label><br>
+                <input type="tel" name="number"><br></div>
+                <div class="email"> <label for="mail">Email Id </label><br>
+                <input type="email" name="mail"><br></div>
+                <div class="message"> <label for="message">Message </label><br>
+                <textarea name="message" id="message" cols="20" rows="3"></textarea><br></div>
+                <button class="btn btn-primary" type="submit">Submit</button>
+
+        </form>
+    </div>
+
+    <footer class="footer">
+            <p class="text-center">Made by Poojan Ghetiya © 2023 </p>
+    </footer>
+</body>
+
+</html>
